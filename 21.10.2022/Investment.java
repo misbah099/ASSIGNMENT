@@ -19,7 +19,7 @@ public class Investment {
 			 double r=sc.nextInt();
 			System.out.print("Enter the time period in years: ");
 			 double y=sc.nextInt();
-			double f=p*Math.pow((1+r/100),y);
+			double f=p*Math.pow((1+r/100),y);//yearly compound interest
 			System.out.print("value is: "+f);
 		  
 		}}
